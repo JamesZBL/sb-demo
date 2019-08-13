@@ -1,0 +1,7 @@
+*
+!.gitignore
+!.bashrc
+!.bash_history
+!.vimrc
+!.zshrc
+!.zsh_history
