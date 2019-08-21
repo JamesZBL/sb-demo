@@ -3,7 +3,7 @@ package me.zbl.controller;
 import me.zbl.pojo.User;
 import me.zbl.pojo.UserParam;
 import me.zbl.pojo.UserVo;
-import me.zbl.service.NameService;
+import me.zbl.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/user")
 public class DemoController {
 
-    private final NameService services;
+    private final UserService services;
 
-    public DemoController(NameService services) {
+    public DemoController(UserService services) {
         this.services = services;
     }
 

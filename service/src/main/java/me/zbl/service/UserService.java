@@ -16,7 +16,7 @@ import java.util.Random;
  * @author 郑保乐
  */
 @Service
-public class NameService {
+public class UserService {
 
     /** 从配置文件获取 value **/
     @Value("${user.name}")
