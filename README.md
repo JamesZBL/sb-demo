@@ -1,5 +1,7 @@
 # Spring Boot Demo
 
+> 包含 jOOQ 等其他功能的版本 https://github.com/huangrg/learn
+
 ## 项目结构
 
 ```plain
